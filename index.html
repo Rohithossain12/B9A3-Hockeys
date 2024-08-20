@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>B9A3-Hockeys</title>
+    <link rel="stylesheet" href="style.css" />
     <!-- DaisyUi + Tailwind CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
@@ -33,7 +34,7 @@
     <!--Header Section  -->
     <header class="container mx-auto">
       <!--Navbar Section  -->
-      <nav>
+      <nav class="mb-10">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
@@ -261,9 +262,71 @@
         </div>
       </section>
 
-      <!--  -->
+      <!--Program Section -->
+      <section class="mt-24">
+        <div
+          class="space-y-5 text-center py-10 border-y-2 border-dashed flex flex-col items-center justify-center"
+        >
+          <h3 class="text-3xl font-bold">Program Sections</h3>
+          <p class="px-4 opacity-88 lg:w-1/2">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+        <!--Image Content  -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 mt-12 gap-6 px-4 ">
+         <!-- Junior Program -->
+         <div
+         class="w-full junior-program flex flex-col justify-end items-center p-24 text-white rounded-lg"
+       >
+         <div>
+           <h5 class="text-2xl font-semibold mb-4">Junior Program</h5>
+           <p>
+             Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+             sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
+             Tortor congue sed et in.
+           </p>
+           <button class="btn btn-error text-white mt-4">Register Now!</button>
+         </div>
+       </div>
+       <!-- Teenager Program -->
+       <div
+       class="w-full senior-program flex flex-col justify-end items-center p-24 text-white rounded-lg"
+     >
+       <div>
+         <h5 class="text-2xl font-semibold mb-4">Junior Program</h5>
+         <p>
+           Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+           sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
+           Tortor congue sed et in.
+         </p>
+         <button class="btn btn-error text-white mt-4">Register Now!</button>
+       </div>
+     </div>
+     <!--Professional Program  -->
+     <div
+  class="w-full lg:col-span-2  justify-start items-center p-24 text-white rounded-lg professional-program overflow-hidden"
+>
+  <div>
+    <h5 class="text-2xl font-semibold mb-4">Junior Program</h5>
+    <p class=" lg:w-1/2">
+      Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+      sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
+      Tortor congue sed et in.
+    </p>
+    <button class="btn btn-error text-white mt-4">Register Now!</button>
+  </div>
+</div>
+
+
+        </div>
+      </section>
     </main>
     <!-- Footer Section -->
     <footer></footer>
   </body>
 </html>
+
+
+
+
